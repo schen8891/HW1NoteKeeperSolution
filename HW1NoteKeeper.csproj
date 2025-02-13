@@ -1,15 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework> <!-- .NET 6 -->
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Compatible version for .NET 6.0 -->
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="6.0.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
 
-</Project>
+</Project> 
